@@ -31,10 +31,14 @@
 	margin: 8px auto;
 }
 
+.divider {
+	margin-bottom: 10px;
+}
+
 .divider hr {
 	border: none;
 	height: 3px;
-	width: 30%;
+	width: 35%;
 	/* Set the hr color */
 	color: #2276BC; /* old IE */
 	background-color: #2276BC; /* Modern Browsers */
@@ -118,5 +122,11 @@
 	padding-right: 30px;
 }
 
+.announcement {
+	padding: 10px 125px;
+}
 
+.special-feature {
+	padding: 10px 125px;
+}
 
