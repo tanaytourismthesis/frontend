@@ -5,6 +5,11 @@
 	background: linear-gradient(135deg, rgba(242,225,158,1) 0%, rgba(242,233,201,1) 22%, rgba(226,217,181,1) 50%, rgba(171,157,99,1) 79%, rgba(148,134,81,1) 95%, rgba(148,134,81,1) 100%);
 }
 
+.culture-arts {
+	background: rgb(247,238,239);
+background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 22%, rgba(197,63,61,1) 50%, rgba(185,31,41,1) 79%, rgba(154,20,27,1) 100%);
+}
+
 .history {
 	padding: 10px 20px;
 }
@@ -17,6 +22,18 @@
 	color: #66342D;
 	font-size: 60px;
 }
+
+.culture-arts {
+	Color: #FFF;
+	font-size: 60px;
+}
+
+
+.culture-arts {
+	padding: 10px 20px;
+}
+
+
 
 .divider {
 	margin-bottom: 10px;
