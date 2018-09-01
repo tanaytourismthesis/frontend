@@ -35,4 +35,4 @@ deployment-config.json
 .remote-sync.json
 
 ## Exclude administrator folder
-administrator
+administrator/

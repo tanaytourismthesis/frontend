@@ -1,0 +1,60 @@
+@import "common.css";
+
+
+.people{
+	background: rgb(231,239,234);
+	background: linear-gradient(270deg, rgba(231,239,234,1) 0%, rgba(104,187,134,1) 50%, rgba(34,92,55,1) 100%);
+	padding: 10px, 20px;
+}
+
+.people {
+	padding: 10px 20px;
+}
+
+.people .section-title {
+	margin-left: 1%;
+}
+
+.people .section-title h1 {
+	color: #fff;
+	font-size: 60px;
+	font-style: Italic;
+}
+
+
+.people-row {
+	padding: 40px 0;
+}
+
+.people-row .people-item:first-child {
+	padding: 0 40px;
+}
+
+.people-row .people-item:last-child {
+	padding: 0 40px;
+	border-left: solid 2px #66342D;
+}
+
+.people-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.author-name, .date-posted {
+	font-size: 12px;
+}
+
+.people-container {
+	background: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+}
+
+.people-image {
+	text-align: center;
+}
+
+
+
+
+
+

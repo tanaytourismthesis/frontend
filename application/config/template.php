@@ -11,5 +11,5 @@
 */
 
 $config['parser']    = FALSE;
-$config['template']  = 'backend';
+$config['template']  = ENV['default_template'];
 $config['cache_ttl'] = 0;

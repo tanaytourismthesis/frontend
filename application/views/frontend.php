@@ -13,12 +13,14 @@
 
 	<link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.png'); ?>" type="image/x-icon" />
 
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap-theme.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap-datetimepicker.min.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap-switch.min.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap/bootstrap.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap/bootstrap-theme.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap/bootstrap-datetimepicker.min.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap/bootstrap-switch.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/ripple.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/font-awesome/css/all.css'); ?>">
+
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/common.css'); ?>">
 
 	<?php echo $this->template->meta; ?>
 
@@ -32,7 +34,13 @@
 	</script>
 </head>
 <body>
-	<?php echo $this->template->content; ?>
+	<div class="container-fluid">
+		<div class="container-background">
+			<?php echo $this->template->widget('header'); ?>
+			<?php echo $this->template->content; ?>
+			<?php echo $this->template->widget('footer'); ?>
+		</div>
+	</div>
 </body>
 
 <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
