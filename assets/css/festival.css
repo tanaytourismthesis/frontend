@@ -1,0 +1,71 @@
+.festival {
+  padding: 20px 50px;
+
+}
+
+.festival img{
+  width: 10%;
+}
+
+
+
+.img-banda img {
+  width: 50%;
+
+}
+
+.text-f{
+  color: #fb79a7;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-e{
+  color: #fece14;
+font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-s{
+  color: #85c441;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-t{
+  color: #a463c2;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-i{
+  color: #e21b20;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-v{
+  color: #ff6b13;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-a{
+color:  #fece14;
+font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-l{
+  color: #a463c2;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}

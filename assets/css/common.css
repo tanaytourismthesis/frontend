@@ -6,11 +6,11 @@ html,body {
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #0A8136;
+	background-color: #023E18;
 }
 
 .container-background {
-	background-color: white;
+	background-color: #fff;
 }
 
 .header {
@@ -29,15 +29,16 @@ body {
 }
 
 .header .navigation {
-	top: 33%;
+	top: 50%;
 	position: relative;
 	margin: 0 auto;
-	background: rgba(255, 255, 255, 0.85);
-	border: solid thin #000;
+	background: rgba(50, 50, 50, 0.4);
 	padding: 10px;
 	width: 80%;
 	text-align: center;
 }
+
+
 
 .header ul {
 	list-style: none;
@@ -56,7 +57,7 @@ body {
 .header li a:active,
 .header li a:hover,
 .header li a:visited {
-	color: #43B76E;
+	color: white;
 }
 
 .footer {
@@ -70,8 +71,6 @@ body {
 	}
 }
 
-
-
 .site-map ul {
 	list-style: none;
 	margin-left: -40px;
@@ -80,5 +79,8 @@ body {
 .contact-info div {
 	word-break: break-all;
 	font-size: 12px;
+}
 
+.text-pink {
+	color: pink;
 }
