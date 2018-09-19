@@ -132,6 +132,7 @@
 
 .news-content {
 	font-style: italic;
+	word-break: break-all;
 }
 
 .other-columns {

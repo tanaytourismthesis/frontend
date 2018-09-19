@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/ripple.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/font-awesome/css/all.css'); ?>">
 
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/common.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/common.css?tm='.date('mdYHisA')); ?>">
 
 	<?php echo $this->template->meta; ?>
 
@@ -48,6 +48,8 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-switch.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/moment.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/autoNumeric/autoNumeric.min.js'); ?>"></script>
+
+<script type="text/javascript" src="<?php echo base_url('assets/js/common.js?tm='.date('mdYHisA')); ?>"></script>
 
 <?php echo $this->template->javascript; ?>
 <?php echo $this->template->stylesheet; ?>
