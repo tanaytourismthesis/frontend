@@ -15,13 +15,9 @@
   </div>
   <div class="img-banda">
     <span>
-      <img  src="assets/images/bandaritas.png">
-    </span>
-  </div>
-  <div class="img-banda1">
-    <span>
-      <img  src="assets/images/bandaritas.png">
-    </span>
+    <img  src="assets/images/bandaritas.png">
+    <img  src="assets/images/bandaritas.png">
+  </span>
   </div>
 
   <div class="headline">

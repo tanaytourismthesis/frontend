@@ -9,8 +9,13 @@
 
 
 
-.img-banda img {
+.img-banda .img-banda1 img {
   width: 50%;
+
+}
+.img-banda1 {
+  margin-left: 50%;
+  margin-top: -15%;
 
 }
 

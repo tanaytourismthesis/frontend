@@ -71,6 +71,11 @@ body {
 	}
 }
 
+.logo img {
+	width: 60%;
+margin-left: 20px
+}
+
 .site-map ul {
 	list-style: none;
 	margin-left: -40px;
