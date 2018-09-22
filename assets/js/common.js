@@ -4,3 +4,8 @@ function formatHomeNewsContent(content) {
   content = dummy.text().substr(0, 500);
   return content;
 }
+
+function getImageFromContent(content) {
+  var dummy = $('<div></div>').html(content);
+  return dummy.find('img').first().attr('src') || '';
+}

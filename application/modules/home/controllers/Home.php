@@ -36,19 +36,27 @@ class Home extends MX_Controller {
     );
   }
 
-  public function load_news($searchkey = '', $start = 0, $limit = 4, $id = 'all', $slug = NULL){
+  public function load_news(){
     $path = ENV['api_path'];
     $api_name = 'news/load_news';
     $creds = ENV['credentials'];
 
     $client = new GuzzleHttp\Client(['verify' => FALSE]);
+    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
+    $slug = $post['slug'] ?? NULL;
+    $id = $post['id'] ?? 'all';
+    $start = $post['start'];
+    $limit = $post['limit'];
+    $searchkey = $post['searchkey'];
+    $status = $post['status'] ?? 'all';
 
     $args = [
       "slug" => $slug,
       "id" => $id,
       "start" => $start,
       "limit" => $limit,
-      "searchkey" => $searchkey
+      "searchkey" => $searchkey,
+      "status" => $status
     ];
 
     $url = $path . $api_name;
@@ -63,6 +71,7 @@ class Home extends MX_Controller {
 
     header( 'Content-Type: application/x-json' );
 		echo $response;
+
   }
 }
 ?>

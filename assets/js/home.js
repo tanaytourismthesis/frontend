@@ -1,8 +1,15 @@
-var load_news = (slug = '') => {
-  $.get(
-    `${baseurl}home/load_news/${slug}`
+var load_news = (searchkey, start, limit, id, slug, status) => {
+  $.post(
+    `${baseurl}home/load_news`,
+    {
+      searchkey: searchkey,
+      start: start,
+      limit: limit,
+      id: id,
+      slug: slug,
+      status: status
+    }
   ).done(function(data){
-    console.log(data);
     var news_list = $('.latest-updates').find('.news_list');
     if (data.response) {
       // clear all existing news
@@ -72,5 +79,5 @@ var load_news = (slug = '') => {
 }
 
 $(function() {
-  load_news('');
+  load_news('',0,4,'','','');
 });
