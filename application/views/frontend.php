@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/ripple.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/font-awesome/css/all.css'); ?>">
 
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/common.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/common.css?tm='.date('mdYHisA')); ?>">
 
 	<?php echo $this->template->meta; ?>
 

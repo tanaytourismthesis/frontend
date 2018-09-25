@@ -35,5 +35,31 @@ class News extends MX_Controller {
       $template // template page
     );
   }
+
+  public function details($slug = NULL) {
+    $data = [];
+    
+    $template = ENV['default_template'];
+
+    $this->template->build_template (
+      'Home', //Page Title
+      array( // Views
+        array(
+          'view' => 'news/details',
+          'data' => $data
+        )
+      ),
+      array( // JavaScript Files
+
+      ),
+      array( // CSS Files
+        "assets/css/news.css"
+      ),
+      array( // Meta Tags
+
+      ),
+      $template // template page
+    );
+  }
 }
 ?>

@@ -1,22 +1,28 @@
 .festival {
   padding: 20px 50px;
-
+  margin-bottom: 200px;
 }
 
-.festival img{
+.festival .section-title img{
   width: 10%;
 }
 
-
-
-.img-banda .img-banda1 img {
+[class^='img-banda'] img {
   width: 50%;
-
 }
-.img-banda1 {
-  margin-left: 50%;
-  margin-top: -15%;
 
+.img-banda-left {
+  position: absolute;
+    top: 42%;
+    left: 0;
+    width: 100%;
+}
+
+.img-banda-right {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 100%;
 }
 
 .text-f{
@@ -73,4 +79,10 @@ padding-top: 10px;
   font-size: 65px;
   font-style: italic;
   padding-top: 10px;
+}
+
+.festival-headline .row {
+  background-image: url(../images/fireworks.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }

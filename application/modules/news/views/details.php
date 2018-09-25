@@ -1,3 +1,4 @@
+
 <div class="container-fluid news-and-update">
   <div class="row section-title">
     <h1><i class="fas fa-newspaper"></i>NEWS</h1>
@@ -42,8 +43,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/details/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>
@@ -71,11 +78,19 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
         </div>
       </div>
     </div>
+
+
 
   </div>
 
@@ -113,8 +128,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>
@@ -142,8 +163,154 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 news-item">
+      <div class="news-container">
+        <div class="news-title">
+          WHAT IS LOREM IPSUM
+        </div>
+
+       <div class="row">
+          <span class="col-sm-6 author-name">
+            <i class="fas fa-user-circle"></i> Administrator
+          </span>
+          <span class="col-sm-6 date-posted">
+            <i class="far fa-calendar-times"></i> August 9, 2018
+          </span>
+        </div>
+
+        <div class="news-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 news-item">
+      <div class="news-container">
+        <div class="news-title">
+          WHAT IS LOREM IPSUM
+        </div>
+
+       <div class="row">
+          <span class="col-sm-6 author-name">
+            <i class="fas fa-user-circle"></i> Administrator
+          </span>
+          <span class="col-sm-6 date-posted">
+            <i class="far fa-calendar-times"></i> August 9, 2018
+          </span>
+        </div>
+
+        <div class="news-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 news-item">
+      <div class="news-container">
+        <div class="news-title">
+          WHAT IS LOREM IPSUM
+        </div>
+
+       <div class="row">
+          <span class="col-sm-6 author-name">
+            <i class="fas fa-user-circle"></i> Administrator
+          </span>
+          <span class="col-sm-6 date-posted">
+            <i class="far fa-calendar-times"></i> August 9, 2018
+          </span>
+        </div>
+
+        <div class="news-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 news-item">
+      <div class="news-container">
+        <div class="news-title">
+          WHAT IS LOREM IPSUM
+        </div>
+
+       <div class="row">
+          <span class="col-sm-6 author-name">
+            <i class="fas fa-user-circle"></i> Administrator
+          </span>
+          <span class="col-sm-6 date-posted">
+            <i class="far fa-calendar-times"></i> August 9, 2018
+          </span>
+        </div>
+
+        <div class="news-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
         </div>
       </div>
     </div>
@@ -185,8 +352,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>
@@ -214,8 +387,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>
@@ -256,8 +435,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"> </a>
         </div>
       </div>
     </div>
@@ -285,8 +470,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum" ></a>
         </div>
       </div>
     </div>
@@ -328,8 +519,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>
@@ -357,8 +554,14 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read
-          more</a>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
       </div>
     </div>

@@ -61,7 +61,7 @@ body {
 }
 
 .footer {
-	background-color: #43B76E;
+	background-color: black;
 	padding: 10px 80px;
 }
 
@@ -71,8 +71,12 @@ body {
 	}
 }
 
+.logo {
+	width: 40%;
+}
+
 .logo img {
-	width: 60%;
+	width: 40%;
 margin-left: 20px
 }
 
