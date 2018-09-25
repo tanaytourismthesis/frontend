@@ -78,6 +78,118 @@ var load_news = (searchkey, start, limit, id, slug, status) => {
   });
 }
 
+var load_special = (searchkey, start, limit, id, slug, status, newsslug) => {
+  $.post(
+    `${baseurl}home/load_special`,
+    {
+      searchkey: searchkey,
+      start: start,
+      limit: limit,
+      id: id,
+      slug: slug,
+      status: status,
+      newsslug: newsslug
+    }
+  ).done(function(data){
+    var othercolumns = $('.other-columns .popular-items ').find('.item-container');
+    // clear all existing news
+    othercolumns.find('.column-title').siblings().remove();
+    if (data.response) {
+      $.each(data.data.records, function(index, value) {
+        othercolumns.append(
+          $('<div class="row item-content"></div>')
+            .append(
+              $('<div class="item-image"></div>')
+                .append(
+                  $('<img id="newspicture" />').attr('src',getImageFromContent(value['content']))
+                )
+            )
+            .append(
+              $('<div class="item-info"></div>')
+                .append(
+                  $('<div class="date"></div>')
+                    .html(value['date_posted'])
+                )
+                .append(
+                  $('<div class="title"></div>')
+                    .html(value['title'])
+                )
+            )
+            .append(
+              $('<div class="row divider6"><hr></div>')
+            )
+        );
+
+        if (
+            (index+1)%2 === 0 ||
+            (index+1) === parseInt(data.data.total_records)
+        ) {
+
+        }
+      });
+    } else {
+      othercolumns.append('No Announcements');
+    }
+  });
+}
+
+var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) => {
+  $.post(
+    `${baseurl}home/load_announcements`,
+    {
+      searchkey: searchkey,
+      start: start,
+      limit: limit,
+      id: id,
+      slug: slug,
+      status: status,
+      newsslug: newsslug
+    }
+  ).done(function(data){
+    var othercolumns = $('.other-columns .public-announcement').find('.item-container');
+    // clear all existing news
+    othercolumns.find('.column-title').siblings().remove();
+    if (data.response) {
+      $.each(data.data.records, function(index, value) {
+        othercolumns.append(
+          $('<div class="row item-content"></div>')
+            .append(
+              $('<div class="item-image"></div>')
+                .append(
+                  $('<img id="newspicture" />').attr('src',getImageFromContent(value['content']))
+                )
+            )
+            .append(
+              $('<div class="item-info"></div>')
+                .append(
+                  $('<div class="date"></div>')
+                    .html(value['date_posted'])
+                )
+                .append(
+                  $('<div class="title"></div>')
+                    .html(value['title'])
+                )
+            )
+            .append(
+              $('<div class="row divider6"><hr></div>')
+            )
+        );
+
+        if (
+            (index+1)%2 === 0 ||
+            (index+1) === parseInt(data.data.total_records)
+        ) {
+
+        }
+      });
+    } else {
+      othercolumns.append('No Announcements');
+    }
+  });
+}
+
 $(function() {
-  load_news('',0,4,'','','');
+  load_news('',0,4,'','','published');
+  load_special('',0,3,'','','published','special-feature');
+  load_announcements('',0,3,'','','published','announcements');
 });

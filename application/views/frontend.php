@@ -31,6 +31,7 @@
 		var defctrl = "<?php echo ENV['default_controller'] ?? 'home'; ?>";
 		var today = "<?php echo date('mdYHisA'); ?>";
 		var image_path = "<?php echo ENV['image_upload_path'] ?? 'assets/images/'; ?>";
+		var admin_path = "<?php echo ENV['api_path'] ?? '../administrator/'; ?>";
 	</script>
 </head>
 <body>

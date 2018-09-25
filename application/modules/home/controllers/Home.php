@@ -73,5 +73,85 @@ class Home extends MX_Controller {
 		echo $response;
 
   }
+
+  public function load_special(){
+    $path = ENV['api_path'];
+    $api_name = 'news/load_news';
+    $creds = ENV['credentials'];
+
+    $client = new GuzzleHttp\Client(['verify' => FALSE]);
+    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
+    $slug = $post['slug'] ?? NULL;
+    $id = $post['id'] ?? 'all';
+    $start = $post['start'];
+    $limit = $post['limit'];
+    $searchkey = $post['searchkey'];
+    $status = $post['status'] ?? 'all';
+    $newsslug = $post['newsslug'] ?? 'all';
+
+    $args = [
+      "slug" => $slug,
+      "id" => $id,
+      "start" => $start,
+      "limit" => $limit,
+      "searchkey" => $searchkey,
+      "status" => $status,
+      "newsslug" => $newsslug
+    ];
+
+    $url = $path . $api_name;
+
+    $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $args])
+    );
+
+    $response = $request->getBody()->getContents();
+
+    header('Content-Type: application/x-json');
+    echo $response;
+
+  }
+
+  public function load_announcements(){
+    $path = ENV['api_path'];
+    $api_name = 'news/load_news';
+    $creds = ENV['credentials'];
+
+    $client = new GuzzleHttp\Client(['verify' => FALSE]);
+    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
+    $slug = $post['slug'] ?? NULL;
+    $id = $post['id'] ?? 'all';
+    $start = $post['start'];
+    $limit = $post['limit'];
+    $searchkey = $post['searchkey'];
+    $status = $post['status'] ?? 'all';
+    $newsslug = $post['newsslug'] ?? 'all';
+
+    $args = [
+      "slug" => $slug,
+      "id" => $id,
+      "start" => $start,
+      "limit" => $limit,
+      "searchkey" => $searchkey,
+      "status" => $status,
+      "newsslug" => $newsslug
+    ];
+
+    $url = $path . $api_name;
+
+    $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $args])
+    );
+
+    $response = $request->getBody()->getContents();
+
+    header('Content-Type: application/x-json');
+    echo $response;
+
+  }
 }
 ?>

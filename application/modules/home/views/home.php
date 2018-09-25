@@ -137,7 +137,7 @@
     <div class="col-xs-12 col-sm-4 popular-items">
       <div class="item-container">
         <div class="row column-title">
-          <h3>Popular <br>News</h3>
+          <h3>Special <br>Feature</h3>
           <div class="divider5">
             <hr />
           </div>
@@ -157,7 +157,7 @@
         <div class="row divider6"><hr/></div>
         <div class="row item-content">
           <div class="item-image">
-            <img>
+            <img id="newspicture">
           </div>
           <div class="item-info">
             <div class="date">August 25, 2018</div>
