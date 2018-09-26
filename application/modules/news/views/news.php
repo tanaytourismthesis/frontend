@@ -160,7 +160,7 @@
       <hr />
     </div>
   </div>
-
+<div class="announcement-list">
   <div class="row news-row">
     <div class="col-xs-12 col-sm-6 news-item">
       <div class="news-container">
@@ -292,6 +292,7 @@
     </div>
   </div>
 </div>
+</div>
 
 <div class="container-fluid special-feature">
   <div class="row section-title">
@@ -303,7 +304,7 @@
       <hr />
     </div>
   </div>
-
+<div class="special-list">
   <div class="row news-row">
     <div class="col-xs-12 col-sm-6 news-item">
       <div class="news-container">
@@ -434,4 +435,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
