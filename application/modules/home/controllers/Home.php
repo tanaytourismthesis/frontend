@@ -49,6 +49,7 @@ class Home extends MX_Controller {
     $limit = $post['limit'];
     $searchkey = $post['searchkey'];
     $status = $post['status'] ?? 'all';
+    $newsslug = $post['newsslug'] ?? 'all';
 
     $args = [
       "slug" => $slug,
@@ -56,9 +57,9 @@ class Home extends MX_Controller {
       "start" => $start,
       "limit" => $limit,
       "searchkey" => $searchkey,
-      "status" => $status
+      "status" => $status,
+      "newsslug" => $newsslug
     ];
-
     $url = $path . $api_name;
 
     $request = $client->request(
@@ -151,7 +152,6 @@ class Home extends MX_Controller {
 
     header('Content-Type: application/x-json');
     echo $response;
-
   }
 }
 ?>

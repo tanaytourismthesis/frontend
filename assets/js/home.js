@@ -1,4 +1,4 @@
-var load_news = (searchkey, start, limit, id, slug, status) => {
+var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
   $.post(
     `${baseurl}home/load_news`,
     {
@@ -7,7 +7,8 @@ var load_news = (searchkey, start, limit, id, slug, status) => {
       limit: limit,
       id: id,
       slug: slug,
-      status: status
+      status: status,
+      newsslug: newsslug
     }
   ).done(function(data){
     var news_list = $('.latest-updates').find('.news_list');
@@ -189,7 +190,7 @@ var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) =
 }
 
 $(function() {
-  load_news('',0,4,'','','published');
+  load_news('',0,4,'','','published','news-and-update');
   load_special('',0,3,'','','published','special-feature');
   load_announcements('',0,3,'','','published','announcements');
 });
