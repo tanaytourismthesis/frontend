@@ -1,7 +1,7 @@
 <div class="container-fluid footer">
   <div class="row news-row">
     <div class="col-xs-12 col-sm-4 logo">
-      <img src="<?php echo base_url('assets/images/tanay.png'); ?>">
+      <img src="<?php echo base_url('assets/images/Tanaylogo.png'); ?>">
         <img src="<?php echo base_url('assets/images/hane.png'); ?>">
     </div>
     <div class="col-xs-12 col-sm-4 site-map">

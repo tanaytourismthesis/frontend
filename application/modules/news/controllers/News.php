@@ -38,7 +38,7 @@ class News extends MX_Controller {
 
   public function details($slug = NULL) {
     $data = [];
-    
+
     $template = ENV['default_template'];
 
     $this->template->build_template (
@@ -53,7 +53,33 @@ class News extends MX_Controller {
 
       ),
       array( // CSS Files
-        "assets/css/news.css"
+        "assets/css/details.css"
+      ),
+      array( // Meta Tags
+
+      ),
+      $template // template page
+    );
+  }
+
+  public function readmore($slug = NULL) {
+    $data = [];
+
+    $template = ENV['default_template'];
+
+    $this->template->build_template (
+      'Home', //Page Title
+      array( // Views
+        array(
+          'view' => 'news/readmore',
+          'data' => $data
+        )
+      ),
+      array( // JavaScript Files
+
+      ),
+      array( // CSS Files
+        "assets/css/details.css"
       ),
       array( // Meta Tags
 

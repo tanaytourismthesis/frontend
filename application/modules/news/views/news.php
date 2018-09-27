@@ -147,6 +147,11 @@
         </div>
       </div>
     </div>
+
+    <div class="news-button">
+      <button class="all-news" role="button"> All news </button>
+    </div>
+
   </div>
 </div>
 
