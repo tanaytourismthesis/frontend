@@ -2,7 +2,7 @@
 if (!defined("BASEPATH"))
     exit("No direct script access allowed");
 
-class Fc extends MX_Controller {
+class Pp extends MX_Controller {
 
 	public function __construct()
 	{
@@ -19,7 +19,7 @@ class Fc extends MX_Controller {
       'Home', //Page Title
       array( // Views
         array(
-          'view' => 'fc/fc',
+          'view' => 'people_places/pp',
           'data' => $data
         )
       ),
@@ -27,7 +27,7 @@ class Fc extends MX_Controller {
 
       ),
       array( // CSS Files
-        "assets/css/festival.css"
+        "assets/css/people.css"
       ),
       array( // Meta Tags
 

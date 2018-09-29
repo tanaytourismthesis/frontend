@@ -24,7 +24,7 @@ class Hca extends MX_Controller {
         )
       ),
       array( // JavaScript Files
-
+        "assets/js/hca.js"
       ),
       array( // CSS Files
         "assets/css/history.css"
@@ -34,6 +34,29 @@ class Hca extends MX_Controller {
       ),
       $template // template page
     );
+  }
+
+  public function load_pages(){
+    $path = ENV['api_path'];
+    $api_name = 'pages/load_pages';
+    $creds = ENV['credentials'];
+
+    $client = new GuzzleHttp\Client(['verify' => FALSE]);
+    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
+    $args = $post['params'];
+
+    $url = $path . $api_name;
+
+    $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $args])
+    );
+
+    $response = $request->getBody()->getContents();
+
+    header( 'Content-Type: application/x-json' );
+		echo $response;
   }
 }
 ?>

@@ -51,6 +51,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/autoNumeric/autoNumeric.min.js'); ?>"></script>
 
 <script type="text/javascript" src="<?php echo base_url('assets/js/common.js?tm='.date('mdYHisA')); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/pages.js?tm='.date('mdYHisA')); ?>"></script>
 
 <?php echo $this->template->javascript; ?>
 <?php echo $this->template->stylesheet; ?>

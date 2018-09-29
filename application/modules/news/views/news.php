@@ -33,6 +33,10 @@
             </span>
           </div>
 
+          <div class="news-image">
+              <img id="news-picture">
+          </div>
+
           <div class="news-content">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -177,6 +181,10 @@
           </span>
         </div>
 
+        <div class="news-image">
+            <img id="news-picture">
+        </div>
+        
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -319,6 +327,10 @@
           <span class="col-sm-6 date-posted">
             <i class="far fa-calendar-times"></i> August 9, 2018
           </span>
+        </div>
+
+        <div class="news-image">
+            <img id="news-picture">
         </div>
 
         <div class="news-content">

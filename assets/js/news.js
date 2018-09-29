@@ -45,6 +45,12 @@ var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
                     )
                 )
                 .append(
+                  $('<div class="news-image"></div')
+                    .append(
+                        $('<img id="news-picture" />').attr('src',getImageFromContent(value['content']))
+                    )
+                )
+                .append(
                   $('<div class="news-content"></div>')
                     .html(`
                       ${formatHomeNewsContent(value['content'])}...
@@ -128,6 +134,12 @@ var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) =
                     )
                 )
                 .append(
+                  $('<div class="news-image"></div')
+                    .append(
+                        $('<img id="news-picture" />').attr('src',getImageFromContent(value['content']))
+                    )
+                )
+                .append(
                   $('<div class="news-content"></div>')
                     .html(`
                       ${formatHomeNewsContent(value['content'])}...
@@ -208,6 +220,12 @@ var load_special = (searchkey, start, limit, id, slug, status, newsslug) => {
                           <i class="far fa-calendar-times"></i>&nbsp;
                           ${value['date_posted']}
                         `)
+                    )
+                )
+                .append(
+                  $('<div class="news-image"></div')
+                    .append(
+                        $('<img id="news-picture" />').attr('src',getImageFromContent(value['content']))
                     )
                 )
                 .append(

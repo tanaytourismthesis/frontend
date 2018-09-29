@@ -1,7 +1,7 @@
 function formatHomeNewsContent(content) {
   var dummy = $('<div></div>').html(content);
   dummy.find('img').remove();
-  content = dummy.text().substr(0, 330);
+  content = dummy.text().substr(0, 150);
   return content;
 }
 
