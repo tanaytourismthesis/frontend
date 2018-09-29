@@ -3,7 +3,7 @@
   margin-bottom: 200px;
 }
 
-.festival .section-title img{
+.festival .section-festival img{
   width: 10%;
 }
 
@@ -85,4 +85,72 @@ padding-top: 10px;
   background-image: url(../images/fireworks.png);
   background-position: right bottom;
   background-repeat: no-repeat;
+}
+
+.festival-headline{
+  padding: 50px;
+}
+
+.cuisine .section-title{
+  padding:25px
+}
+
+.cuisine .section-title img{
+  width: 10%;
+}
+
+.cuisine-image img{
+  width: 60%;
+padding: 30px;
+}
+
+
+.text-c{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-u{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+
+.text-i1{
+  color: #294516;
+  font-size: 65px;
+  font-style:italic;
+  padding-top: 10px;
+}
+
+.text-s1{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-ii{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-n{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-e1{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
 }

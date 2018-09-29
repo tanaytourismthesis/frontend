@@ -60,7 +60,7 @@
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
 
-          <a href="news/readmore/what-is-lorem-ipsum"></a>
+          <a href="news/all/what-is-lorem-ipsum"></a>
         </div>
 </div>
 

@@ -111,7 +111,7 @@
 						</div>
 					</div>
 
-									<div class="container-fluid history-updates">
+					<div class="container-fluid history-updates">
 					<div class="row history-row">
 						<div class="col-xs-12 col-sm-6 history-item">
 							<div class="history-container">
