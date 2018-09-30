@@ -32,11 +32,13 @@
 .divider3 hr {
 	border: none;
 	height: 5px;
-	width: 80%;
+	width: 92%;
 	/* Set the hr color */
 	color: #43B76E; /* old IE */
 	background-color: #43B76E; /* Modern Browsers */
 	margin: 0 0 3px;
+	margin-bottom: 4%;
+
 }
 
 .divider4 hr {
@@ -70,10 +72,12 @@
 .divider6 hr {
 	border: none;
 	height: 1px;
-	width: 80%;
+	width: 92%;
 	color: #707070;
 	background-color: #707070;
 	margin: 10px 0;
+	margin-top: 25%;
+	margin-left: 4%;
 }
 
 .latest-updates{
