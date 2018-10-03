@@ -82,16 +82,20 @@ class News extends MX_Controller {
         array_merge($creds, ['form_params' => $args])
       );
 
-      $response = $request->getBody()->getContents();
+      $res = $request->getBody()->getContents();
+
+      if (isJson($res)) {
+        $response = array_merge($response, json_decode($res, TRUE));
+      }
     } catch (Exception $e) {
       $response['message'] = $e->getMessage();
     }
 
     if ($ajax) {
       header( 'Content-Type: application/x-json' );
-  		echo $response;
+  		echo json_encode($response);
     }
-    return json_decode($response, true);
+    return $response;
   }
 
   public function details($type_slug = NULL, $slug = NULL) {
@@ -135,8 +139,6 @@ class News extends MX_Controller {
         ),
         $this->template_name // template page
       );
-
-      debug($result);
     } catch (Exception $e) {
       show_404();
     }

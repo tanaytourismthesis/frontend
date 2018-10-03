@@ -99,6 +99,8 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 .history-container {
 	background: rgba(255, 255, 255, 0.7);
 	padding: 10px;
+	height: 370px;
+	min-height: 350px;
 }
 
 .history-image {
