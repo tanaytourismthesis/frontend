@@ -54,7 +54,7 @@ var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
                   $('<div class="news-content"></div>')
                     .html(`
                       ${formatHomeNewsContent(value['content'])}...
-                      <a href="${baseurl}news/${value['slug']}"
+                      <a href="${baseurl}news/details/${value['slug']}"
                         class="read-more" role="button">read more</a>
                     `)
                 )

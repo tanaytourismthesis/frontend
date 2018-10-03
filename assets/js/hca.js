@@ -21,6 +21,13 @@ var load_history = (data) => {
                         ${value['first_name']} ${value['last_name']}
                       `)
                   )
+                  .append(
+                    $('<span class="col-sm-6 date-posted"></span>')
+                      .html(`
+                        <i class="far fa-calendar-times"></i>&nbsp;
+                        ${value['date_posted']}
+                      `)
+                  )
               )
               .append(
                 $('<div class="news-image"></div')
@@ -84,6 +91,13 @@ var load_ca = (data) => {
                       .html(`
                         <i class="fas fa-user-circle"></i>&nbsp;
                         ${value['first_name']} ${value['last_name']}
+                      `)
+                  )
+                  .append(
+                    $('<span class="col-sm-6 date-posted"></span>')
+                      .html(`
+                        <i class="far fa-calendar-times"></i>&nbsp;
+                        ${value['date_posted']}
                       `)
                   )
               )

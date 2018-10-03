@@ -1,6 +1,5 @@
 .festival {
   padding: 20px 50px;
-  margin-bottom: 200px;
 }
 
 .festival .section-festival img{
@@ -8,20 +7,20 @@
 }
 
 [class^='img-banda'] img {
-  width: 50%;
+  width: 47%;
 }
 
 .img-banda-left {
   position: absolute;
-    top: 42%;
-    left: 0;
-    width: 100%;
+  top: 50%;
+  left: 1.5%;
+  width: 105%;
 }
 
 .img-banda-right {
   position: absolute;
-  top: 42%;
-  left: 50%;
+  top: 50%;
+  left: 51.5%;
   width: 100%;
 }
 
@@ -153,4 +152,52 @@ padding: 30px;
   font-size: 65px;
   font-style: italic;
   padding-top: 10px;
+}
+
+.festival-container {
+  border: solid thin #707070;
+  background-color: #fff;
+  padding: 10px;
+  opacity: 0.9;
+  margin-bottom: 3%;
+  height: 370px;
+  min-height: 350px;
+}
+
+.cuisine-container {
+  border: solid thin #707070;
+  background-color: #fff;
+  padding: 10px;
+  opacity: 0.9;
+  margin-bottom: 3%;
+  height: 370px;
+  min-height: 350px;
+}
+
+.festival-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cuisine-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.festival-list {
+  margin-top: 14%;
+}
+
+#festival-picture {
+  width: 40%;
+  margin-left: 30%;
+}
+
+#cuisine-picture {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.cuisine {
+  padding: 20px 50px;
 }
