@@ -1,0 +1,156 @@
+.festival {
+  padding: 20px 50px;
+  margin-bottom: 200px;
+}
+
+.festival .section-festival img{
+  width: 10%;
+}
+
+[class^='img-banda'] img {
+  width: 50%;
+}
+
+.img-banda-left {
+  position: absolute;
+    top: 42%;
+    left: 0;
+    width: 100%;
+}
+
+.img-banda-right {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 100%;
+}
+
+.text-f{
+  color: #fb79a7;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-e{
+  color: #fece14;
+font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-s{
+  color: #85c441;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-t{
+  color: #a463c2;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-i{
+  color: #e21b20;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-v{
+  color: #ff6b13;
+  font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-a{
+color:  #fece14;
+font-size: 65px;
+font-style: italic;
+padding-top: 10px;
+}
+
+.text-l{
+  color: #a463c2;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.festival-headline .row {
+  background-image: url(../images/fireworks.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.festival-headline{
+  padding: 50px;
+}
+
+.cuisine .section-title{
+  padding:25px
+}
+
+.cuisine .section-title img{
+  width: 10%;
+}
+
+.cuisine-image img{
+  width: 60%;
+padding: 30px;
+}
+
+
+.text-c{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-u{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+
+.text-i1{
+  color: #294516;
+  font-size: 65px;
+  font-style:italic;
+  padding-top: 10px;
+}
+
+.text-s1{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-ii{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-n{
+  color:#294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.text-e1{
+  color: #294516;
+  font-size: 65px;
+  font-style: italic;
+  padding-top: 10px;
+}
