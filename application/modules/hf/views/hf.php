@@ -4,7 +4,7 @@
     <img src="assets/images/hane.png">
       <form class="example">
       <input type="text" placeholder="find a hotel.." name="search">
-      <button type="button" onclick="window.location='//tanay.tourism/client/hf/search'" id="searchButton" ><i class="fa fa-search"></i></button>
+      <button type="button" onclick="window.location='//tanay.tourism/client/hf/search'"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>

@@ -1,5 +1,27 @@
-  .search-container img{
-width: 20%;
+.item-image img{
+width: 80%;
 height: 100px;
-margin-right: 100%
+}
+
+.item-container{
+border: solid thin #707070;
+    background-color: #fff;
+    padding: 10px;
+    opacity: 0.9;
+  }
+
+.col-md-7 img {
+  width: 100%;
+height: 365px;
+}
+
+.other-columns {
+  border: solid thin #707070;
+      background-color: #fff;
+      padding: 30px;
+      opacity: 0.9;
+}
+
+.button-back{
+  padding: 10px;
 }

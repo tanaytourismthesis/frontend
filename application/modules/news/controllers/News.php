@@ -62,7 +62,7 @@ class News extends MX_Controller {
     );
   }
 
-  public function readmore($slug = NULL) {
+  public function allnews($slug = NULL) {
     $data = [];
 
     $template = ENV['default_template'];
@@ -71,7 +71,7 @@ class News extends MX_Controller {
       'Home', //Page Title
       array( // Views
         array(
-          'view' => 'news/readmore',
+          'view' => 'news/allnews',
           'data' => $data
         )
       ),
@@ -79,7 +79,7 @@ class News extends MX_Controller {
 
       ),
       array( // CSS Files
-        "assets/css/details.css"
+        "assets/css/allnews.css"
       ),
       array( // Meta Tags
 

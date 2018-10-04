@@ -149,7 +149,7 @@
     </div>
 
     <div class="news-button">
-      <button class="all-news" role="button"> All news </button>
+      <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews'" role="button"> All news </button>
     </div>
 
   </div>
