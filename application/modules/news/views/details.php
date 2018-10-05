@@ -13,6 +13,7 @@
           </span>
         </div>
 
+        <div class="container-content">
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -62,7 +63,5 @@
 
           <a href="news/details/what-is-lorem-ipsum"></a>
         </div>
-</div>
-
-<div class="container-fluid">
+      </div>
 </div>

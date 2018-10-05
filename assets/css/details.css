@@ -1,3 +1,5 @@
+@import "common.css";
+
 .container-fluid, .news-and-updates{
   padding-right: 15px;
     padding-left: 15px;
@@ -6,10 +8,25 @@
 }
  .news-title{
   font-size: 40px;
-  
+
 }
 
 .news-content{
   font-size: 20px;
     font-style: italic;
+}
+
+.news-and-update{
+border: solid thin #707070;
+    background-color: #fff;
+    padding: 10px;
+    opacity: 0.9;
+  }
+
+.container-content{
+  border: solid thin #707070;
+      background-color: #fff;
+      padding: 10px;
+      opacity: 0.9;
+
 }

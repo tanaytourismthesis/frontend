@@ -71,7 +71,7 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 0;
-	border-top: 2px solid #8a6d3b;	
+	border-top: 2px solid #8a6d3b;
 }
 
 .history-row {
@@ -98,7 +98,11 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 
 .history-container {
 	background: rgba(255, 255, 255, 0.7);
-	padding: 10px;
+	border: solid thin #707070;
+  background-color: #fff;
+  padding: 30px;
+  opacity: 0.9;
+  margin-top: 20px;
 }
 
 .history-image {

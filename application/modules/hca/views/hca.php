@@ -105,6 +105,7 @@
 						</div>
 					</div>
 
+				</div>
 					<div class="container-fluid culture-arts">
 						<div class="row section-title">
 							<h1>CULTURE & ARTS</h1>

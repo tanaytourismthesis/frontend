@@ -1,4 +1,4 @@
-
+@import "common.css";
 
 .news-title h1{
   font-style: italic;
@@ -7,7 +7,7 @@ font-size: 48px;
 
 
 .divider hr{
-  border: none;
+border: none;
 height: 3px;
 width: 35%;
 color: #2276BC;
@@ -30,11 +30,18 @@ margin: 0;
     background-color: #fff;
     padding: 30px;
     opacity: 0.9;
+    margin-bottom: 10px;
 }
 
 .container-items{
   border: solid thin #707070;
-    background-color: #fff;
-    padding: 30px;
-    opacity: 0.9;
+  background-color: #fff;
+  padding: 30px;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-bottom :10px;
+}
+
+.container-fluid{
+
 }
