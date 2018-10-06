@@ -1,3 +1,5 @@
+
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -58,7 +60,7 @@
         </div>
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+          <a href="news/details/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
         </div>
       </div>
     </div>
@@ -75,7 +77,7 @@
         </div>
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+          <a href="news/details/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
         </div>
       </div>
     </div>
@@ -102,7 +104,7 @@
         </div>
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatbryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+          <a href="news/details/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
         </div>
       </div>
     </div>
@@ -119,7 +121,7 @@
         </div>
         <div class="news-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatbryan is sow pogi i dont know why...
-          <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+          <a href="news/details/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
         </div>
       </div>
     </div>

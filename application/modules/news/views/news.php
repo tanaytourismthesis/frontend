@@ -147,12 +147,11 @@
         </div>
       </div>
     </div>
-
-    <div class="news-button">
-      <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews'" role="button"> All news </button>
-    </div>
-
   </div>
+</div>
+
+<div class="news-button">
+  <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews?type=news'" role="button"> All news </button>
 </div>
 
 <div class="container-fluid announcement">
@@ -298,6 +297,10 @@
   </div>
 </div>
 
+<div class="news-button">
+  <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews?type=news'" role="button"> All Announcement </button>
+</div>
+
 <div class="container-fluid special-feature">
   <div class="row section-title">
     <h1><i class="fas fa-camera"></i>Special Features</h1>
@@ -439,4 +442,8 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="button-special">
+  <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews?type=news'" role="button"> Special </button>
 </div>

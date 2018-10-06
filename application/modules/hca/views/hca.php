@@ -105,6 +105,10 @@
 						</div>
 					</div>
 
+					<div class="button-history">
+					  <button class="click-more" onclick="window.location='//tanay.tourism/client/hca/allhistory'"> All history </button>
+					</div>
+
 				</div>
 					<div class="container-fluid culture-arts">
 						<div class="row section-title">
@@ -205,3 +209,7 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="culture-button">
+						<button class="click-more" onclick="window.location='//tanay.tourism/client/hca/othercultures'"> All Culture&arts </button>
+				</div>
