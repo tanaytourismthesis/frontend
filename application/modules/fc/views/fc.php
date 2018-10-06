@@ -121,6 +121,10 @@
     </div>
   </div>
 
+  <div class="news-button">
+    <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews?type=news'" role="button"> See more </button>
+  </div>
+
   <div class="container-fluid cuisine">
     <div class="row section-title">
       <img src="assets/images/Cuis.jpg">
@@ -233,4 +237,8 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="news-button">
+      <button class="all-news" onclick="window.location='//tanay.tourism/client/news/allnews?type=news'" role="button"> See more </button>
     </div>

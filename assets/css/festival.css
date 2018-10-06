@@ -156,3 +156,30 @@ padding: 30px;
   font-style: italic;
   padding-top: 10px;
 }
+
+
+.news-button{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 60px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.all-news {
+	width: 70%;
+	border-radius: 60px 20px;
+	border: solid #2276BC;
+}
+
+.button-special {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.all-news:hover{
+  background-color: white;
+}
+  
