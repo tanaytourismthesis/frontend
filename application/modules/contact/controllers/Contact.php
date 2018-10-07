@@ -2,7 +2,7 @@
 if (!defined("BASEPATH"))
     exit("No direct script access allowed");
 
-class Cu extends MX_Controller {
+class Contact extends MX_Controller {
 
 	public function __construct()
 	{
@@ -19,7 +19,7 @@ class Cu extends MX_Controller {
       'Home', //Page Title
       array( // Views
         array(
-          'view' => 'cu/cu',
+          'view' => 'contact/cu',
           'data' => $data
         )
       ),
