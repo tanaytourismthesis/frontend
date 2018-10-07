@@ -1,4 +1,4 @@
-var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
+var load_news = (searchkey, start, limit, id, slug, status, newsslug, function_name) => {
   $.post(
     `${baseurl}home/load_news`,
     {
@@ -11,6 +11,11 @@ var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
       newsslug: newsslug
     }
   ).done(function(data){
+    window[function_name](data);
+  });
+}
+
+var load_latest = (data) => {
     var news_list = $('.latest-updates').find('.news_list');
     if (data.response) {
       // clear all existing news
@@ -53,7 +58,7 @@ var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
                   $('<div class="news-content"></div>')
                     .html(`
                       ${formatHomeNewsContent(value['content'])}...
-                      <a href="${baseurl}news/${value['slug']}"
+                      <a href="${baseurl}news/details/${value['type_slug']}/${value['slug']}"
                         class="read-more" role="button">read more</a>
                     `)
                 )
@@ -82,22 +87,9 @@ var load_news = (searchkey, start, limit, id, slug, status, newsslug) => {
     } else {
       news_list.html('No latest news items.');
     }
-  });
 }
 
-var load_special = (searchkey, start, limit, id, slug, status, newsslug) => {
-  $.post(
-    `${baseurl}home/load_special`,
-    {
-      searchkey: searchkey,
-      start: start,
-      limit: limit,
-      id: id,
-      slug: slug,
-      status: status,
-      newsslug: newsslug
-    }
-  ).done(function(data){
+var load_special = (data) => {
     var othercolumns = $('.other-columns .popular-items ').find('.item-container');
     // clear all existing news
     othercolumns.find('.column-title').siblings().remove();
@@ -121,6 +113,13 @@ var load_special = (searchkey, start, limit, id, slug, status, newsslug) => {
                   $('<div class="title"></div>')
                     .html(value['title'])
                 )
+                .append(
+                  $('<div class="news-content"></div>')
+                    .html(`
+                      <a href="${baseurl}news/details/${value['type_slug']}/${value['slug']}"
+                        class="read-more" role="button">read more</a>
+                    `)
+                )
             )
             .append(
               $('<div class="row divider6"><hr></div>')
@@ -137,22 +136,9 @@ var load_special = (searchkey, start, limit, id, slug, status, newsslug) => {
     } else {
       othercolumns.append('No Announcements');
     }
-  });
 }
 
-var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) => {
-  $.post(
-    `${baseurl}home/load_announcements`,
-    {
-      searchkey: searchkey,
-      start: start,
-      limit: limit,
-      id: id,
-      slug: slug,
-      status: status,
-      newsslug: newsslug
-    }
-  ).done(function(data){
+var load_announcements = (data) => {
     var othercolumns = $('.other-columns .public-announcement').find('.item-container');
     // clear all existing news
     othercolumns.find('.column-title').siblings().remove();
@@ -176,6 +162,13 @@ var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) =
                   $('<div class="title"></div>')
                     .html(value['title'])
                 )
+                .append(
+                  $('<div class="news-content"></div>')
+                    .html(`
+                      <a href="${baseurl}news/details/${value['type_slug']}/${value['slug']}"
+                        class="read-more" role="button">read more</a>
+                    `)
+                )
             )
             .append(
               $('<div class="row divider6"><hr></div>')
@@ -192,11 +185,10 @@ var load_announcements = (searchkey, start, limit, id, slug, status, newsslug) =
     } else {
       othercolumns.append('No Announcements');
     }
-  });
 }
 
 $(function() {
-  load_news('',0,4,'','','published','news-and-update');
-  load_special('',0,3,'','','published','special-feature');
-  load_announcements('',0,3,'','','published','announcements');
+  load_news('',0,4,'','news-and-update','published', '', 'load_latest');
+  load_news('',0,3,'','special-feature','published', '', 'load_special');
+  load_news('',0,3,'','announcements','published','', 'load_announcements');
 });

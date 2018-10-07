@@ -17,6 +17,13 @@
   width: 105%;
 }
 
+.all-news {
+	width: 70%;
+	border-radius: 60px 20px;
+	border: solid #2276BC;
+	margin-bottom: 1%;
+}
+
 .img-banda-right {
   position: absolute;
   top: 50%;
@@ -191,6 +198,7 @@ padding: 30px;
 #festival-picture {
   width: 40%;
   margin-left: 30%;
+  height: 215px;
 }
 
 #cuisine-picture {

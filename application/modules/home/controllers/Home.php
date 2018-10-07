@@ -36,122 +36,67 @@ class Home extends MX_Controller {
     );
   }
 
-  public function load_news(){
-    $path = ENV['api_path'];
-    $api_name = 'news/load_news';
-    $creds = ENV['credentials'];
-
-    $client = new GuzzleHttp\Client(['verify' => FALSE]);
-    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
-    $slug = $post['slug'] ?? NULL;
-    $id = $post['id'] ?? 'all';
-    $start = $post['start'];
-    $limit = $post['limit'];
-    $searchkey = $post['searchkey'];
-    $status = $post['status'] ?? 'all';
-    $newsslug = $post['newsslug'] ?? 'all';
-
-    $args = [
-      "slug" => $slug,
-      "id" => $id,
-      "start" => $start,
-      "limit" => $limit,
-      "searchkey" => $searchkey,
-      "status" => $status,
-      "newsslug" => $newsslug
-    ];
-    $url = $path . $api_name;
-
-    $request = $client->request(
-      'POST',
-      $url,
-      array_merge($creds, ['form_params' => $args])
-    );
-
-    $response = $request->getBody()->getContents();
-
-    header( 'Content-Type: application/x-json' );
-		echo $response;
-
-  }
-
-  public function load_special(){
-    $path = ENV['api_path'];
-    $api_name = 'news/load_news';
-    $creds = ENV['credentials'];
-
-    $client = new GuzzleHttp\Client(['verify' => FALSE]);
-    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
-    $slug = $post['slug'] ?? NULL;
-    $id = $post['id'] ?? 'all';
-    $start = $post['start'];
-    $limit = $post['limit'];
-    $searchkey = $post['searchkey'];
-    $status = $post['status'] ?? 'all';
-    $newsslug = $post['newsslug'] ?? 'all';
-
-    $args = [
-      "slug" => $slug,
-      "id" => $id,
-      "start" => $start,
-      "limit" => $limit,
-      "searchkey" => $searchkey,
-      "status" => $status,
-      "newsslug" => $newsslug
+  public function load_news($params = [], $ajax = TRUE){
+    $response = [
+      'response' => FALSE
     ];
 
-    $url = $path . $api_name;
+    try {
+      if (!empty($params)) {
+        $post = $params;
+      } else {
+        $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
+      }
 
-    $request = $client->request(
-      'POST',
-      $url,
-      array_merge($creds, ['form_params' => $args])
-    );
+      if (empty($post)) {
+        throw new Exception('Invalid parameter(s)');
+      }
 
-    $response = $request->getBody()->getContents();
+      $path = ENV['api_path'];
+      $api_name = 'news/load_news';
+      $creds = ENV['credentials'];
+      $client = new GuzzleHttp\Client(['verify' => FALSE]);
 
-    header('Content-Type: application/x-json');
-    echo $response;
+      $slug = $post['slug'] ?? NULL;
+      $id = $post['id'] ?? 'all';
+      $start = $post['start'] ?? 0;
+      $limit = $post['limit'] ?? 0;
+      $searchkey = $post['searchkey'] ?? '';
+      $status = $post['status'] ?? 'all';
+      $newsslug = $post['newsslug'] ?? 'all';
 
+      $args = [
+        "slug" => $slug,
+        "id" => $id,
+        "start" => $start,
+        "limit" => $limit,
+        "searchkey" => $searchkey,
+        "status" => $status,
+        "newsslug" => $newsslug
+      ];
+      $url = $path . $api_name;
+
+      $request = $client->request(
+        'POST',
+        $url,
+        array_merge($creds, ['form_params' => $args])
+      );
+
+      $res = $request->getBody()->getContents();
+
+      if (isJson($res)) {
+        $response = array_merge($response, json_decode($res, TRUE));
+      }
+    } catch (Exception $e) {
+      $response['message'] = $e->getMessage();
+    }
+
+    if ($ajax) {
+      header( 'Content-Type: application/x-json' );
+  		echo json_encode($response);
+    }
+    return $response;
   }
-
-  public function load_announcements(){
-    $path = ENV['api_path'];
-    $api_name = 'news/load_news';
-    $creds = ENV['credentials'];
-
-    $client = new GuzzleHttp\Client(['verify' => FALSE]);
-    $post = (isJsonPostContentType()) ? decodeJsonPost($this->security->xss_clean($this->input->raw_input_stream)) : $this->input->post();
-    $slug = $post['slug'] ?? NULL;
-    $id = $post['id'] ?? 'all';
-    $start = $post['start'];
-    $limit = $post['limit'];
-    $searchkey = $post['searchkey'];
-    $status = $post['status'] ?? 'all';
-    $newsslug = $post['newsslug'] ?? 'all';
-
-    $args = [
-      "slug" => $slug,
-      "id" => $id,
-      "start" => $start,
-      "limit" => $limit,
-      "searchkey" => $searchkey,
-      "status" => $status,
-      "newsslug" => $newsslug
-    ];
-
-    $url = $path . $api_name;
-
-    $request = $client->request(
-      'POST',
-      $url,
-      array_merge($creds, ['form_params' => $args])
-    );
-
-    $response = $request->getBody()->getContents();
-
-    header('Content-Type: application/x-json');
-    echo $response;
-  }
+  
 }
 ?>

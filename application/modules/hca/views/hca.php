@@ -94,6 +94,11 @@
 			</div>
 		</div>
 	</div>
+	<div style="text-align:center;">
+	  <div class="news-button">
+	    <button class="all-news" id="buttonallhistory" role="button"> View All History </button>
+	  </div>
+	</div>
 
 		<div class="container-fluid culture-arts">
 			<div class="row section-title">
@@ -180,6 +185,22 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatbryan is sow pogi i dont know why...
 							<a href="history/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div style="text-align:center;">
+					<div class="news-button">
+						<button class="all-news" id="buttonallculture" role="button"> View All Culture </button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div style="text-align:center;">
+					<div class="news-button">
+						<button class="all-news" id="buttonallarts" role="button"> View All Arts </button>
 					</div>
 				</div>
 			</div>

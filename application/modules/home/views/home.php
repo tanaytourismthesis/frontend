@@ -155,6 +155,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
         <div class="row divider6"><hr/></div>
@@ -165,6 +168,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
         <div class="row divider6"><hr/></div>
@@ -175,6 +181,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
       </div>
@@ -197,6 +206,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
         <div class="row divider6"><hr/></div>
@@ -207,6 +219,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
         <div class="row divider6"><hr/></div>
@@ -217,6 +232,9 @@
           <div class="item-info">
             <div class="date">August 25, 2018</div>
             <div class="title">Lorem Ipsum Whatever It Is</div>
+            <div class="news-content">
+              <a href="news/what-is-lorem-ipsum" class="read-more" role="button">read more</a>
+            </div>
           </div>
         </div>
 

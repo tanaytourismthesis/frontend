@@ -8,6 +8,17 @@
 	background: linear-gradient(270deg, rgba(231,239,234,1) 0%, rgba(104,187,134,1) 50%, rgba(34,92,55,1) 100%);
 }
 
+
+.all-news {
+	width: 70%;
+	border-radius: 60px 20px;
+	border: solid #2276BC;
+}
+
+#buttonallplaces {
+	margin-bottom: 2%;
+}
+
 .people .section-title h1 {
 	color: #fff;
 	font-size: 60px;

@@ -152,6 +152,11 @@
       </div>
     </div>
   </div>
+  <div style="text-align:center;">
+    <div class="news-button">
+      <button class="all-news" id="buttonallnews" role="button">View All news </button>
+    </div>
+  </div>
 </div>
 
 <div class="container-fluid announcement">
@@ -300,6 +305,11 @@
     </div>
   </div>
 </div>
+<div style="text-align:center;">
+  <div class="news-button">
+    <button class="all-news" id="buttonallannouncements" role="button"> View All Announcements </button>
+  </div>
+</div>
 </div>
 
 <div class="container-fluid special-feature">
@@ -446,6 +456,11 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+<div style="text-align:center;">
+  <div class="news-button">
+    <button class="all-news" id="buttonallspecialfeatures" role="button"> View All Special Features </button>
   </div>
 </div>
 </div>

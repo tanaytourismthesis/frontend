@@ -20,6 +20,20 @@ var load_people = (data) => {
                     $('<div class="title"></div>')
                       .html(value['title'])
                   )
+                  .append(
+                    $('<span class="col-sm-6 date-posted"></span>')
+                      .html(`
+                        <i class="far fa-calendar-times"></i>&nbsp;
+                        ${value['date_posted']}
+                      `)
+                  )
+                  .append(
+                    $('<div class="seemore-container"></div>')
+                      .html(`
+                        <a href="${baseurl}people_places/details/${value['tag']}/${value['content_slug']}"
+                          class="read-more" role="button">read more</a>
+                        `)
+                  )
               )
           )
       );
@@ -51,6 +65,20 @@ var load_places = (data) => {
                     $('<div class="title"></div>')
                       .html(value['title'])
                   )
+                  .append(
+                    $('<span class="col-sm-6 date-posted"></span>')
+                      .html(`
+                        <i class="far fa-calendar-times"></i>&nbsp;
+                        ${value['date_posted']}
+                      `)
+                  )
+              )
+              .append(
+                $('<div class="seemore-container"></div>')
+                  .html(`
+                    <a href="${baseurl}people_places/details/${value['tag']}/${value['content_slug']}"
+                      class="read-more" role="button">read more</a>
+                    `)
               )
           )
       );
@@ -72,8 +100,6 @@ $(function(){
         }
       },
     },
-    // page slug
-    'people_places',
     // js function
     'load_people'
   );
@@ -90,9 +116,16 @@ $(function(){
         }
       },
     },
-    // page slug
-    'people_places',
     // js function
     'load_places'
   );
+
+  $("#buttonallpeople").on('click', function(){
+    window.location=`${baseurl}people_places/allpages/people`;
+  });
+  $("#buttonallplaces").on('click', function(){
+    window.location=`${baseurl}people_places/allpages/places`;
+  });
+
+
 });

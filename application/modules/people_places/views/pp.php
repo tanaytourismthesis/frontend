@@ -117,6 +117,11 @@
           </div>
         </div>
      </div>
+     <div style="text-align:center;">
+       <div class="news-button">
+         <button class="all-news" id="buttonallpeople" role="button"> View All People </button>
+       </div>
+     </div>
    </div>
 </div>
 
@@ -272,6 +277,11 @@
             </div>
           </div>
         </div>
+     </div>
+     <div style="text-align:center;">
+       <div class="news-button">
+         <button class="all-news" id="buttonallplaces" role="button"> View All Places </button>
+       </div>
      </div>
    </div>
 </div>

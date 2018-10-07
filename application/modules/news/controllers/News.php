@@ -143,5 +143,44 @@ class News extends MX_Controller {
       show_404();
     }
   }
+
+  public function allnews($slug = NULL) {
+  if($slug == 'news-and-update'){
+    $pagetitle = 'ALL NEWS';
+  }
+  if($slug == 'announcements'){
+    $pagetitle = 'ALL ANNOUNCEMENTS';
+  }
+  if($slug == 'special-feature'){
+    $pagetitle = 'ALL SPECIAL FEATURES';
+  }
+
+  $data = [
+    'slug' => $slug,
+    'pagetitle' => $pagetitle
+  ];
+
+  $template = ENV['default_template'];
+
+  $this->template->build_template (
+      'Home', //Page Title
+      array( // Views
+        array(
+          'view' => 'news/allnews',
+          'data' => $data
+        )
+      ),
+      array( // JavaScript Files
+        "assets/js/allnews.js"
+      ),
+      array( // CSS Files
+        "assets/css/allnews.css"
+      ),
+      array( // Meta Tags
+
+      ),
+      $template // template page
+    );
+  }
 }
 ?>

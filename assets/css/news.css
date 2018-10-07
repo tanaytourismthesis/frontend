@@ -10,6 +10,12 @@
 	}
 }
 
+.all-news {
+	width: 70%;
+	border-radius: 60px 20px;
+	border: solid #2276BC;
+}
+
 .news-and-update .section-title {
 	margin-left: 1%;
 }

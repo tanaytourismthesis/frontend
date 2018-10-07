@@ -171,7 +171,11 @@
         </div>
       </div>
     </div>
-
+    <div style="text-align:center;">
+  	  <div class="news-button">
+  	    <button class="all-news" id="buttonallfestival" role="button"> View All Festival </button>
+  	  </div>
+  	</div>
   </div>
 
   <div class="container-fluid cuisine">
@@ -333,6 +337,11 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div style="text-align:center;">
+        <div class="news-button">
+          <button class="all-news" id="buttonallcuisine" role="button"> View All Cuisine </button>
         </div>
       </div>
     </div>

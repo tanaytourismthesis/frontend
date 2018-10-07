@@ -39,7 +39,7 @@ var load_history = (data) => {
                 $('<div class="news-content"></div>')
                   .html(`
                     ${formatHomeNewsContent(value['content'])}...
-                    <a href="${baseurl}news/${value['slug']}"
+                    <a href="${baseurl}hca/details/${value['tag']}/${value['content_slug']}"
                       class="read-more" role="button">read more</a>
                   `)
               )
@@ -111,7 +111,7 @@ var load_ca = (data) => {
                 $('<div class="news-content"></div>')
                   .html(`
                     ${formatHomeNewsContent(value['content'])}...
-                    <a href="${baseurl}news/${value['slug']}"
+                    <a href="${baseurl}hca/details/${value['tag']}/${value['content_slug']}"
                       class="read-more" role="button">read more</a>
                   `)
               )
@@ -154,8 +154,6 @@ $(function(){
         }
       },
     },
-    // page slug
-    'hca',
     // js function
     'load_history'
   );
@@ -178,9 +176,17 @@ $(function(){
         },
       }
     },
-    // page slug
-    'hca',
     // js function
     'load_ca'
   );
+
+  $("#buttonallhistory").on('click', function(){
+    window.location=`${baseurl}hca/allpages/history`;
+  });
+  $("#buttonallculture").on('click', function(){
+    window.location=`${baseurl}hca/allpages/culture`;
+  });
+  $("#buttonallarts").on('click', function(){
+    window.location=`${baseurl}hca/allpages/arts`;
+  });
 });

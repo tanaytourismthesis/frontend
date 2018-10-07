@@ -1,5 +1,4 @@
 var load_festival = (data) => {
-  console.log(data);
   var festivallist = $('.festival').find('.festival-list');
   if(data.response){
     festivallist.html('');
@@ -40,7 +39,7 @@ var load_festival = (data) => {
                 $('<div class="festival-content"></div>')
                   .html(`
                     ${formatHomeNewsContent(value['content'])}...
-                    <a href="${baseurl}festival/${value['slug']}"
+                    <a href="${baseurl}festival_cuisine/details/${value['tag']}/${value['content_slug']}"
                       class="read-more" role="button">read more</a>
                   `)
               )
@@ -112,7 +111,7 @@ var load_festival = (data) => {
                   $('<div class="cuisine-content"></div>')
                     .html(`
                       ${formatHomeNewsContent(value['content'])}...
-                      <a href="${baseurl}cuisine/${value['slug']}"
+                      <a href="${baseurl}festival_cuisine/details/${value['tag']}/${value['content_slug']}"
                         class="read-more" role="button">read more</a>
                     `)
                 )
@@ -156,8 +155,6 @@ $(function(){
         }
       },
     },
-    // page slug
-    'festival_cuisine',
     // js function
     'load_festival'
   );
@@ -174,9 +171,14 @@ $(function(){
         }
       },
     },
-    // page slug
-    'festival_cuisine',
     // js function
     'load_cuisine'
   );
+
+  $("#buttonallfestival").on('click', function(){
+    window.location=`${baseurl}festival_cuisine/allpages/festival`;
+  });
+  $("#buttonallcuisine").on('click', function(){
+    window.location=`${baseurl}festival_cuisine/allpages/cuisine`;
+  });
 });

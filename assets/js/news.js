@@ -242,6 +242,16 @@ var load_special = (data) => {
 
 $(function() {
   load_news('',0,4,'','news-and-update','published', '', 'load_latest');
-  load_news('',0,3,'','special-feature','published', '', 'load_special');
-  load_news('',0,3,'','load_announcements','published','announcements', '', 'load_announcements');
+  load_news('',0,4,'','special-feature','published', '', 'load_special');
+  load_news('',0,4,'','announcements','published','', 'load_announcements');
+//  onclick="window.location='//tanay.tourism/client/news/allnews?type=news-and-update'"
+  $("#buttonallnews").on('click', function(){
+    window.location=`${baseurl}news/allnews/news-and-update`;
+  });
+  $("#buttonallannouncements").on('click', function(){
+    window.location=`${baseurl}news/allnews/announcements`;
+  });
+  $("#buttonallspecialfeatures").on('click', function(){
+    window.location=`${baseurl}news/allnews/special-feature`;
+  });
 });

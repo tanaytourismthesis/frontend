@@ -1,6 +1,6 @@
-var load_pages = (params, controller, function_name) => {
+var load_pages = (params, function_name) => {
   $.post(
-    `${baseurl}${controller}/load_pages`,
+    `${baseurl}pages/load_pages`,
     {
       params: params
     }
