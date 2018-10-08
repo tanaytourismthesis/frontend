@@ -10,6 +10,7 @@ height: 100px;
   background-color: #fff;
   padding: 10px;
   opacity: 0.9;
+
 }
 
 .item-container{
@@ -30,6 +31,7 @@ height: 410px;
   background-color: #fff;
   padding: 30px;
   opacity: 0.9;
+  margin-bottom: 10px;
 }
 
 .button-back{
