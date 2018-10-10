@@ -78,6 +78,7 @@ class Hf extends MX_Controller {
         )
        ),
       array( // JavaScript Files
+       "assets/js/searchhotel.js"
       ),
       array( // CSS Files
         "assets/css/search.css"

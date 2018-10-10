@@ -50,7 +50,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-switch.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/moment.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/autoNumeric/autoNumeric.min.js'); ?>"></script>
-
+<script async defer  src="https://maps.googleapis.com/maps/api/js?key=<?php echo ENV['gmapi']; ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/common.js?tm='.date('mdYHisA')); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/pages.js?tm='.date('mdYHisA')); ?>"></script>
 
