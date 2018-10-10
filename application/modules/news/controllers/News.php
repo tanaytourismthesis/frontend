@@ -114,6 +114,26 @@ class News extends MX_Controller {
 
       $result = $this->load_news($args, FALSE);
 
+      $path = ENV['api_path'];
+      $api_name = 'dashboard/add_newsclick';
+      $creds = ENV['credentials'];
+      $client = new GuzzleHttp\Client(['verify' => FALSE]);
+
+      $args = [
+      "news_id" => $result['data']['records']['news_id']
+      ];
+
+      $url = $path . $api_name;
+
+      $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $args])
+      );
+
+      $res = $request->getBody()->getContents();
+
+
       if (!$result['response']) {
         throw new Exception($result['message']);
       }

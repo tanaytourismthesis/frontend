@@ -163,11 +163,11 @@ var load_announcements = (data) => {
                     .html(value['title'])
                 )
                 .append(
-                  $('<div class="news-content"></div>')
+                  $('<div class="news-holder"></div>')
                     .html(`
                       <a href="${baseurl}news/details/${value['type_slug']}/${value['slug']}"
-                        class="read-more" role="button">read more</a>
-                    `)
+                        class="read-more">read more</a>
+                      `)
                 )
             )
             .append(

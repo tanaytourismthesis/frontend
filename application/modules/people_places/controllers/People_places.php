@@ -43,6 +43,25 @@ class People_places extends MX_Controller {
 
       $result = modules::run('pages/details', 'pp', $tag, $slug);
 
+      $path = ENV['api_path'];
+      $api_name = 'dashboard/add_pageclick';
+      $creds = ENV['credentials'];
+      $client = new GuzzleHttp\Client(['verify' => FALSE]);
+
+      $args = [
+      "content_id" => $result['data']['records'][0]['content_id']
+      ];
+
+      $url = $path . $api_name;
+
+      $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $args])
+      );
+
+      $res = $request->getBody()->getContents();
+
       if (!$result['response']) {
         throw new Exception($result['message']);
       }

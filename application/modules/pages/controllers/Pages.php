@@ -41,7 +41,7 @@ class Pages extends MX_Controller {
       );
 
       $res = $request->getBody()->getContents();
-      
+
       if (isJson($res)) {
         $response = array_merge($response, json_decode($res, TRUE));
       }
