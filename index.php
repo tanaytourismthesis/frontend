@@ -1,6 +1,6 @@
 <?php
-$appenv = $_SERVER['APPENV_CLIENT'] ?? 'tanaytourism.config';
-define('ENV', json_decode( file_get_contents( $appenv ), TRUE )[ "TANAYTOURISM" ] );
+$appenv = $_SERVER['APPENV_CLIENT'] ?? 'tanaytourism';
+define('ENV', json_decode( base64_decode(file_get_contents( $appenv )), TRUE )[ "TANAYTOURISM" ]);
 date_default_timezone_set("Asia/Manila");
 /**
  * CodeIgniter
