@@ -38,7 +38,7 @@ load_latest = (data) => {
 
             <div class="news-content">
               ${formatHomeNewsContent(value['content'])} ...
-              <a href="news/details/${value['type_slug']}/${value['slug']}" class="read-more" role="button">read
+              <a href="${baseurl}news/details/${value['type_slug']}/${value['slug']}" class="read-more" role="button">read
                 more</a>
             </div>
           </div>
@@ -52,8 +52,7 @@ load_latest = (data) => {
     var page_num = parseInt($('.page_num').text());
     $('.total_records').text(total_records);
     $('.page_num').text(page_num);
-
-  }
+  } 
 }
 
 $(function() {
