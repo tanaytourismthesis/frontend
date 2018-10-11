@@ -11,6 +11,19 @@ class Home extends MX_Controller {
 	}
 
   public function index(){
+    // Record site visit
+    $path = ENV['api_path'];
+    $api_name = 'dashboard/record_site_visit';
+    $creds = ENV['credentials'];
+    $client = new GuzzleHttp\Client(['verify' => FALSE]);
+    $url = $path . $api_name;
+    $request = $client->request(
+      'GET',
+      $url,
+      $creds
+    );
+    $res = $request->getBody()->getContents();
+
     $data = [];
 
     $template = ENV['default_template'];
@@ -97,6 +110,6 @@ class Home extends MX_Controller {
     }
     return $response;
   }
-  
+
 }
 ?>
