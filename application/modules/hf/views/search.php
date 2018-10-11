@@ -21,8 +21,8 @@
                   <div class="hotel-name"><?php echo $value['hotel_name']; ?></div>
                   <div class="address"><?php echo $value['address']; ?></div>
                   <div class"page3-button">
-                    <button class="click-more" onclick="window.location='//tanay.tourism/client/hf/hotelinfo'" role="button"><i class="fas fa-search">View Hotel</i></button>
-                    <button class="click-more" data-long="<?php echo $value['longhitude']; ?>" data-lat="<?php echo $value['latitude']; ?>" id = "viewmap" role="button"><i class="fas fa-search">View Map</i></button>
+                    <button class="btn btn-success click-more" role="button"><a href="//tanay.tourism/client/hf/hotelinfo/<?php echo $value['hotel_id'];  ?>" ><i class="fas fa-search">View Hotel</i></a></button>
+                    <button class="btn btn-danger click-more" data-long="<?php echo $value['longhitude']; ?>" data-lat="<?php echo $value['latitude']; ?>" id = "viewmap" role="button"><i class="fas fa-search">View Map</i></button>
                   </div>
                 </div>
               </div>

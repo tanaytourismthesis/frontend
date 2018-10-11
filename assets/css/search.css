@@ -53,3 +53,7 @@ height: 410px;
 #map {
   height: 389px;
 }
+
+.content-container a {
+  color: #FFFF;
+}

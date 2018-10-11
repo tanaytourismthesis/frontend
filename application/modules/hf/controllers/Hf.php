@@ -63,6 +63,7 @@ class Hf extends MX_Controller {
        redirect('hf?err='.$err_msg);
      }
 
+
      $data = [
        'data' => $res['data']
      ];
@@ -90,8 +91,64 @@ class Hf extends MX_Controller {
      );
  }
 
-public function hotelinfo($slug = NULL ) {
+public function hotelinfo($id = NULL ) {
   $data = [];
+  $id = decrypt(urldecode($id));
+
+  $path = ENV['api_path'];
+  $api_name = 'hf_management/searchHane';
+  $creds = ENV['credentials'];
+  $client = new GuzzleHttp\Client(['verify' => FALSE]);
+
+  $searchkey = $post['search'] ?? " ";
+  $pricerange = $post['est_price'] ?? NULL;
+  $hotelid = $id ?? NULL;
+
+
+  if(!empty($hotelid)){
+    $params = [
+      'searchkey' => $searchkey,
+      'hotel_id' => $hotelid,
+      'pricerange' => 0
+    ];
+
+    $url = $path . $api_name;
+
+    $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $params])
+    );
+
+    $res = $request->getBody()->getContents();
+    $res = json_decode($res, TRUE);
+  }
+  else{
+    if ($pricerange == NULL ) {
+      throw new Exception("LOAD HANE: Invalid parameter(s)");
+    }
+
+    $params = [
+      'searchkey' => $searchkey,
+      'hotel_id' => '',
+      'pricerange' => $pricerange
+    ];
+
+    $url = $path . $api_name;
+
+    $request = $client->request(
+      'POST',
+      $url,
+      array_merge($creds, ['form_params' => $params])
+    );
+
+    $res = $request->getBody()->getContents();
+    $res = json_decode($res, TRUE);
+  }
+
+  $data = [
+    'data' => $res['data']
+  ];
 
   $template = ENV['default_template'];
 
