@@ -12,9 +12,6 @@
       </ul>
     </div>
     <div class="col-xs-12 col-sm-4 contact-info">
-      <div><i class="fas fa-users"></i> kayle almedina</div>
-      <div><i class="fas fa-mobile-alt"></i> 09275242783</div>
-      <div><i class="fas fa-envelope"></i> kyleskatechristian23@gmail.com</div>
     </div>
   </div>
 </div>

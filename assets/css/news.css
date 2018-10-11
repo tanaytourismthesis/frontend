@@ -94,7 +94,6 @@
 
 .news-row .news-item:last-child {
 	padding: 0 40px;
-	border-left: solid 1px #2276BC;
 }
 
 .news-container {
@@ -105,6 +104,9 @@
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	width: 110%;
+  height: 300px;
+ margin-bottom: 15px;
 }
 
 .news-title {
@@ -129,11 +131,11 @@
 }
 
 .announcement {
-	padding: 10px 125px;
+	padding: 10px -1px;
 }
 
 .special-feature {
-	padding: 10px 125px;
+	padding: 10px -1px;
 }
 
 .news-button{

@@ -12,7 +12,7 @@
 
 .people .section-title h1 {
 	color: #fff;
-	font-size: 60px;
+	font-size: 37px;
 	font-style: Italic;
 }
 
@@ -103,8 +103,8 @@
 }
 
 .item-content .item-image > img{
-	height: 110px;
-  width: 160px
+	height: 80px;
+	width: 100px;
 }
 
 .people-columns .more-articles {
@@ -137,7 +137,7 @@
 }
 .places .section-title h1 {
 	color: #fff;
-	font-size: 60px;
+	font-size: 37px;
 	font-style: Italic;
 }
 .carousel {
@@ -145,7 +145,7 @@
 }
 .carousel-inner .item > img {
 	margin: 0 auto;
-	height: 450px;
+	height: 200px;
 }
 
 .news-button{
@@ -171,4 +171,23 @@
 
 .all-news:hover{
   background-color: white;
+}
+
+@media screen and (min-width: 992px) {
+	.carousel-inner .item > img {
+		margin: 0 auto;
+		height: 400px;
+	}
+
+	.places .section-title h1 {
+		color: #fff;
+		font-size: 64px;
+		font-style: Italic;
+
+		.people .section-title h1 {
+			color: #fff;
+			font-size: 64px;
+			font-style: Italic;
+		}
+
 }

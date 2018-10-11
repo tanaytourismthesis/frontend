@@ -2,7 +2,7 @@
   <a class="navbar-brand" href="#"><img src="assets/images/hane.png"></a>
 </div>
 
-<div class="container-fluid">
+<div class="container-navbar">
 <div class="navigation">
   <nav class="navbar navbar-inverse">
       <div class="navbar-header">

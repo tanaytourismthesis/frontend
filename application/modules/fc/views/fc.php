@@ -12,22 +12,25 @@
         <span class="text-l">L</span>
       </span>
     </div>
+
+    <div class="img-banda-left">
+      <span>
+        <img  src="assets/images/bandaritas.png">
+      </span>
+    </div>
+    <div class="img-banda-right">
+      <span>
+        <img  src="assets/images/bandaritas.png">
+      </span>
+    </div>
   </div>
-  <div class="img-banda-left">
-    <span>
-      <img  src="assets/images/bandaritas.png">
-    </span>
-  </div>
-  <div class="img-banda-right">
-    <span>
-      <img  src="assets/images/bandaritas.png">
-    </span>
-  </div>
+
+
 
   <div class="festival-headline container-fluid">
     <div class="row">
       <div class="col-sm-6 festival-image">
-        <img src="assets/images/festival.jpg">
+        <img>
       </div>
       <div class="col-sm-6 festival-item">
 				<div class="festival-title">
@@ -45,10 +48,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 					veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-					commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-					ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+					commodo consequat.
 					<a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
 					more</a>
 				</div>
@@ -60,7 +60,7 @@
   <div class="festival-headline container-fluid">
     <div class="row">
       <div class="col-sm-6 festival-image">
-        <img src="assets/images/festival.jpg">
+        <img>
       </div>
       <div class="col-sm-6 festival-item">
 				<div class="festival-title">
@@ -78,10 +78,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 					veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-					commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-					ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+					commodo consequat.
 					<a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
 					more</a>
 				</div>
@@ -92,7 +89,7 @@
   <div class="festival-headline container-fluid">
     <div class="row">
       <div class="col-sm-6 festival-image">
-        <img src="assets/images/festival.jpg">
+        <img>
       </div>
       <div class="col-sm-6 festival-item">
         <div class="festival-title">
@@ -110,10 +107,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+          commodo consequat.
           <a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
           more</a>
         </div>
@@ -162,10 +156,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+            commodo consequat.
             <a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
             more</a>
           </div>
@@ -195,10 +186,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+            commodo consequat.
             <a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
             more</a>
           </div>
@@ -228,10 +216,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat bryan is sow pogi i dont know why...
+            commodo consequat.
             <a href="festival/details/what-is-lorem-ipsum" class="read-more" role="button">read
             more</a>
           </div>

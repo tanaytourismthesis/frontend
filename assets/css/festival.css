@@ -1,16 +1,18 @@
-@import "common.css"
+@import "common.css";
 
 .festival {
   padding: 20px 50px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .festival .section-festival img{
-  width: 10%;
+  width: 25%;
+  margin-left: -30px;
 }
 
 [class^='img-banda'] img {
   width: 50%;
+  margin-top: 25px;
 }
 
 .img-banda-left {
@@ -29,56 +31,56 @@
 
 .text-f{
   color: #fb79a7;
-  font-size: 65px;
+  font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-e{
   color: #fece14;
-font-size: 65px;
+font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-s{
   color: #85c441;
-  font-size: 65px;
+  font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-t{
   color: #a463c2;
-  font-size: 65px;
+  font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-i{
   color: #e21b20;
-  font-size: 65px;
+  font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-v{
   color: #ff6b13;
-  font-size: 65px;
+  font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-a{
 color:  #fece14;
-font-size: 65px;
+font-size: 34px;
 font-style: italic;
 padding-top: 10px;
 }
 
 .text-l{
   color: #a463c2;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
@@ -90,7 +92,12 @@ padding-top: 10px;
 }
 
 .festival-headline{
-  padding: 50px;
+  border: solid thin #707070;
+      background-color: #fff;
+      padding: 10px;
+      opacity: 0.9;
+      width: 100%;
+      margin-bottom: 15px;
 }
 
 .cuisine .section-title{
@@ -98,25 +105,25 @@ padding-top: 10px;
 }
 
 .cuisine .section-title img{
-  width: 10%;
+  width: 30%;
 }
 
 .cuisine-image img{
   width: 60%;
-padding: 30px;
+  margin-left: 55px;
 }
 
 
 .text-c{
   color:#294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
 
 .text-u{
   color: #294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
@@ -124,39 +131,43 @@ padding: 30px;
 
 .text-i1{
   color: #294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style:italic;
   padding-top: 10px;
 }
 
 .text-s1{
   color:#294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
 
 .text-ii{
   color: #294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
 
 .text-n{
   color:#294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
 
 .text-e1{
   color: #294516;
-  font-size: 65px;
+  font-size: 34px;
   font-style: italic;
   padding-top: 10px;
 }
 
+.festival-image img{
+  width: 100%;
+height: 140px;
+}
 
 .news-button{
 	width: 70%;
@@ -182,4 +193,159 @@ padding: 30px;
 .all-news:hover{
   background-color: white;
 }
-  
+
+.cuisine-headline {
+  border: solid thin #707070;
+      background-color: #fff;
+      padding: 10px;
+      opacity: 0.9;
+      width: 100%;
+      margin-bottom: 15px;
+}
+
+@media screen and (min-width: 992px){
+  .img-banda-right {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+  }
+
+  .img-banda-left {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    width: 100%;
+  }
+
+  .festival .section-festival img {
+  width: 15%;
+  margin-left: -30px;
+  }
+
+  [class^='img-banda'] img {
+  width: 50%;
+  margin-top: 30px;
+  }
+
+  .text-f{
+    color: #fb79a7;
+    font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-e{
+    color: #fece14;
+  font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-s{
+    color: #85c441;
+    font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-t{
+    color: #a463c2;
+    font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-i{
+    color: #e21b20;
+    font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-v{
+    color: #ff6b13;
+    font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-a{
+  color:  #fece14;
+  font-size: 64px;
+  font-style: italic;
+  padding-top: 10px;
+  }
+
+  .text-l{
+    color: #a463c2;
+    font-size: 64px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .cuisine .section-title img {
+    width: 15%;
+    }
+
+    .text-c{
+      color:#294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+    .text-u{
+      color: #294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+
+    .text-i1{
+      color: #294516;
+      font-size: 64px;
+      font-style:italic;
+      padding-top: 10px;
+    }
+
+    .text-s1{
+      color:#294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+    .text-ii{
+      color: #294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+    .text-n{
+      color:#294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+    .text-e1{
+      color: #294516;
+      font-size: 64px;
+      font-style: italic;
+      padding-top: 10px;
+    }
+
+    .festival-headline {
+    border: solid thin #707070;
+    background-color: #fff;
+    padding: 10px;
+    opacity: 0.9;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 110px;
+  }
+
+}

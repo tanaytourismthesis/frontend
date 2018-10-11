@@ -11,7 +11,7 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 }
 
 .history {
-	padding: 10px 20px;
+	padding: 0px 10px;
 }
 
 .history .section-title {
@@ -77,8 +77,9 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 }
 
 .button-history{
-	margin-left: 90%;
-  margin-bottom: 20px;
+  	margin-bottom: 20px;
+		text-align: center;
+		border-radius: 60px 20px;
 }
 
 .click-more{
@@ -98,16 +99,16 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 
 .history-row .history-item:last-child {
 	padding: 0 40px;
-	border-left: solid 2px #66342D;
 }
 
 .history-title {
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 15px;
+	 font-weight: bold;
 }
 
 .author-name, .date-posted {
-	font-size: 12px;
+	font-size: 10px;
+margin-left: -10px
 }
 
 .history-container {
@@ -124,12 +125,25 @@ background: linear-gradient(270deg, rgba(247,238,239,1) 0%, rgba(250,187,185,1) 
 }
 
 .history-image img {
-	width: 350px;
-	height: 200px;
+	width: 150px;
+	height: 100px;
 	margin: 0 auto;
 }
 
 .culture-button{
-	margin-left: 90%;
-  margin-bottom: 20px;
+  	margin-bottom: 20px;
+    border-radius: 60px 20px;
+		text-align: center;
+}
+
+@media screen and (min-width: 992px){
+	.history-button{
+		margin-left: 45%;
+	  margin-bottom: 20px;
+	}
+
+	.culture-button{
+		margin-left: 1%;
+	  margin-bottom: 20px;
+	}
 }
