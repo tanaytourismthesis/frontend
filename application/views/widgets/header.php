@@ -1,5 +1,5 @@
 <div class="header">
-  <img id="headerLogo" src="assets/images/hane.png">
+  <img id="headerLogo" src="/assets/images/hane.png">
 </div>
 
 <div class="container-fluid">

@@ -36,7 +36,7 @@
 	</script>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container container-fluid">
 		<div class="container-background">
 			<?php echo $this->template->widget('header'); ?>
 			<?php echo $this->template->content; ?>
