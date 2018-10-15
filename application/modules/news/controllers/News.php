@@ -121,7 +121,7 @@ class News extends MX_Controller {
       $client = new GuzzleHttp\Client(['verify' => FALSE]);
 
       $args = [
-      "news_id" => $result['data']['records']['news_id']
+        "news_id" => $result['data']['records']['news_id']
       ];
 
       $url = $path . $api_name;
@@ -139,7 +139,7 @@ class News extends MX_Controller {
         throw new Exception($result['message']);
       }
 
-      $result = $this->template->build_template (
+      $this->template->build_template (
         'News and Updates', //Page Title
         array( // Views
           array(

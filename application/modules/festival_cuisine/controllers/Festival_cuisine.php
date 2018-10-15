@@ -43,23 +43,25 @@ class Festival_cuisine extends MX_Controller {
         throw new Exception('Invalid parameter(s).');
       }
 
+      // Retrieve page content
       $result = modules::run('pages/details', 'fc', $tag, $slug);
 
+      // Record page content click
       $path = ENV['api_path'];
       $api_name = 'dashboard/add_pageclick';
       $creds = ENV['credentials'];
       $client = new GuzzleHttp\Client(['verify' => FALSE]);
 
       $args = [
-      "content_id" => $result['data']['records'][0]['content_id']
+        "content_id" => $result['data']['records'][0]['content_id']
       ];
 
       $url = $path . $api_name;
 
       $request = $client->request(
-      'POST',
-      $url,
-      array_merge($creds, ['form_params' => $args])
+        'POST',
+        $url,
+        array_merge($creds, ['form_params' => $args])
       );
 
       $res = $request->getBody()->getContents();
@@ -68,7 +70,7 @@ class Festival_cuisine extends MX_Controller {
         throw new Exception($result['message']);
       }
 
-      $result = $this->template->build_template (
+      $this->template->build_template (
         'Festival and Cuisine', //Page Title
         array( // Views
           array(
@@ -95,21 +97,20 @@ class Festival_cuisine extends MX_Controller {
   }
 
   public function allpages($slug = NULL) {
-  if($slug == 'festival'){
-    $pagetitle = 'ALL FESTIVAL';
-  }
-  if($slug == 'cuisine'){
-    $pagetitle = 'ALL CUISINE';
-  }
+    if (empty($slug)) {
+      show_404();
+    }
 
-  $data = [
-    'slug' => $slug,
-    'pagetitle' => $pagetitle
-  ];
+    $pagetitle = 'ALL ' . strtoupper($slug);
 
-  $template = ENV['default_template'];
+    $data = [
+      'slug' => $slug,
+      'pagetitle' => $pagetitle
+    ];
 
-  $this->template->build_template (
+    $template = ENV['default_template'];
+
+    $this->template->build_template (
       'Festival and Cuisine', //Page Title
       array( // Views
         array(
