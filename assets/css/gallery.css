@@ -1,0 +1,36 @@
+@import "common.css";
+
+.other-columns h1{
+  color: #0e4d92;
+  font-size: 54px;
+}
+
+.gallery-container {
+border: solid thin #707070;
+background-color: #fff;
+padding: 30px;
+opacity: 0.9;
+margin-bottom: 10px;
+}
+
+.col-xs-7 img {
+  width: 180%;
+  height: 180px;
+}
+
+.button-modal .btn {
+width: 180%;
+margin-top: 10px;
+}
+
+.modal-header{
+  background-color: #0e4d92;
+}
+
+.modal-footer{
+  background-color: #0e4d92;
+}
+
+.close {
+  color: white;
+}
